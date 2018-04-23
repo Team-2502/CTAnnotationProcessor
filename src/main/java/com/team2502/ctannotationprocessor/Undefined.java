@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
  * Used to annotate a RobotMap id field to notify user
  * that the code may not work correctly or trigger an error.
  */
-@Retention(RetentionPolicy.SOURCE)
 @Target(ElementType.FIELD)
+@Retention(RetentionPolicy.SOURCE)
 public @interface Undefined
 {
     /**
